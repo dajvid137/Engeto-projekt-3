@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e07a5f;
+  height: 80px;
+}
+
+.logo {
+  flex-grow: 1;
+}
+
+.logo img {
+  width: 200px;
+  margin-left: 20px;
+}
+
+nav {
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  display: flex;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+
+.logo img {
+  width: 95px;
+  margin-left: 20px;
+}
+
+/* =================================dark mode================================ */
+
+.dark-mode {
+  background-color: #101117;
+  color: rgb(255, 255, 255);
+}
+
+.dark-mode .History {
+  background-color: #15151c;
+  color: #ffffffd5;
+}
+.dark-mode .products {
+  background-color: #15151c;
+  color: #ffffffd5;
+}
+.dark-mode .kontakt {
+  background-color: #15151c;
+  color: #ffffffd5;
+}
+.dark-mode .products {
+  background-color: #15151c;
+  color: #ffffffd5;
+}
+.dark-mode .druh {
+  border: 1px solid rgba(255, 255, 255, 0.801);
+  color: #ffffffd5;
+}
+.dark-mode .heslo1 {
+  border: 1px solid rgba(255, 255, 255, 0.801);
+  color: #ffffffd5;
+}
+.dark-mode .heslo2 {
+  border: 1px solid rgba(255, 255, 255, 0.801);
+  color: #ffffffd5;
+}
+.dark-mode .scroll-btn {
+  background-color: #15151c;
+}
+
+.dark-mode .pizza img {
+  -webkit-filter: drop-shadow(5px 5px 5px #ff000000);
+  filter: drop-shadow(10px 10px 10px #ff000000);
+}
+
+#kolecko2 {
+  display: none;
+  width: 30px;
+}
+
+.dark-mode #kolecko2 {
+  display: block;
+}
+
+#kolecko1 {
+  display: block;
+  width: 30px;
+}
+
+.dark-mode #kolecko1 {
+  display: none;
+}
+
+.dark-mode-btn {
+  background-color: #c5161600;
+  border: none;
+  padding: 2px 20px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 2em;
+  text-align: center;
+}
+
+nav a:hover {
+  background: #c46c54;
+  transition: 0.8s;
+}
+
+.Best_pizza {
+  height: 700px;
+  background-image: url(imgs/pizza.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.text {
+  color: white;
+  width: 55%;
+}
+
+.text h1 {
+  font-size: 5rem;
+}
+
+.text p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tlacitko {
+  background-color: #c46c54;
+  border: none;
+  border-radius: 2em;
+  color: white;
+  padding: 20px 36px;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tlacitko a {
+  text-decoration: none;
+  color: white;
+}
+
+.tlacitko2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.tlacitko:hover {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.tlacitko2 {
+  background-color: #c46c5400;
+  border: 2px solid white;
+  border-radius: 2em;
+  color: white;
+  padding: 18px 34px;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tlacitko2:hover {
+  opacity: 1;
+  transition: 0.3s;
+  background-color: #c46c54b4;
+  border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.History {
+  display: flex;
+  height: 650px;
+  border: 40px;
+  background-color: #f4f1de;
+}
+
+article p {
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+article h2 {
+  font-size: 3em;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  width: 60%;
+}
+
+.History article {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.History aside {
+  background-image: url(imgs/store.jpeg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.notificationName,
+.notificationheslo2 {
+  display: none;
+  margin-top: 10px;
+  font-size: 0.5em;
+  color: red;
+}
+
+.notificationheslo1 {
+  display: none;
+  margin-top: 10px;
+  font-size: 0.5em;
+  color: rgb(16, 146, 22);
+}
+
+.form {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2em;
+}
+
+.druh,
+.heslo1,
+.heslo2 {
+  background-color: transparent;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+form input[type="submit"] {
+  background-color: #c46c54;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.products {
+  text-align: center;
+  background-color: #f4f1de;
+  font-size: 1.2em;
+}
+
+.products h2 {
+  font-size: 3em;
+  padding: 50px;
+}
+
+.pizza_img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pizza {
+  width: 70%;
+  transition: transform 0.2s;
+}
+
+.pizza:hover {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.pizza img {
+  width: 70%;
+  min-width: 200px;
+  -webkit-filter: drop-shadow(5px 5px 5px #666666);
+  filter: drop-shadow(10px 10px 10px #666666);
+}
+
+.pobocka {
+  text-align: center;
+}
+
+.pobocka h2 {
+  padding: 40px;
+  font-size: 3em;
+}
+
+.pobocka img {
+  width: 40%;
+  min-width: 500px;
+  padding-bottom: 50px;
+  -webkit-filter: drop-shadow(5px 5px 5px #666666);
+  filter: drop-shadow(5px 5px 5px #666666);
+}
+
+.pobocka h3 {
+  padding: 40px;
+  font-size: 3em;
+}
+
+.pobocka p {
+  width: 50%;
+}
+
+.kontakt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+  background-color: #f4f1de;
+}
+
+.scroll-btn {
+  display: flex;
+  justify-content: end;
+  background-color: #f4f1de;
+}
+
+.scroll-button {
+  background-color: #2b2b2ba2;
+  border: none;
+  border-radius: 2em;
+  color: white;
+  padding: 8px 14px;
+  text-align: center;
+  font-size: 15px;
+  margin: 4px 60px;
+  opacity: 0.8;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.scroll-button:hover {
+  background-color: #2b2b2b;
+  transition: 0.5s;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: #c46c54;
+  color: #000;
+}

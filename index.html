@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="query.css" />
+    <script
+      src="https://kit.fontawesome.com/9891eac4cf.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="imgs/logo.png" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#domu">Domu</a></li>
+          <li><a href="#history">O nás</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+          <li><a href="#pobocky">Pobočka</a></li>
+          <li>
+            <button class="dark-mode-btn" onclick="Switch()">
+              <img src="imgs/toggle-on-solid.svg" id="kolecko2" />
+              <img src="imgs/toggle-off-solid.svg" id="kolecko1" />
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+      </div>
+    </header>
+
+    <a id="domu"></a>
+    <div class="Best_pizza">
+      <div class="text">
+        <h1>Best PIZZA</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nobis
+          ut amet obcaecati qui est quod quo, repellat laboriosam animi quia
+          dolore consectetur quidem dicta aliquam expedita minima minus
+          consequatur? Repellat laboriosam animi quia dolore consectetur quidem
+          dicta aliquam expedita minima minus consequaturctetur adipisicing
+          elit. Porro nobis ut amet obcaecati qui est quod quo, repellat
+          laboriosam animi quia dolore consectetur quidem dicta aliquam expedita
+          minima minus consequatur?
+        </p>
+        <button class="tlacitko"><a href="#form">Objednat</a></button>
+        <button class="tlacitko2"><a href="#nabidka">Zobrazit Menu</a></button>
+      </div>
+    </div>
+
+    <main>
+      <a id="history"></a>
+      <section class="History">
+        <article>
+          <h2>Historie Pizzerie</h2>
+          <p>
+            Expedita minima minus consequatur? Lorem ipsum dolor sit amet
+            consectetur <strong>adipisicing</strong> elit. Porro nobis ut amet
+            obcaecati qui est quod quo, repellat laboriosam animi quia dolore
+            quidem dicta minima <strong>1992</strong> minus elit. Porro nobis ut
+            amet obcaecati qui est quod quo, repellat laboriosam animi quia
+            dolore consectetur quidem dicta aliquam expedita minima minus
+            consequatur?
+          </p>
+        </article>
+        <aside></aside>
+      </section>
+
+      <section class="form" id="form">
+        <h1>Objednat zde</h1>
+        <p class="notificationName">Vyplňte prosím název pizzy</p>
+        <p class="notificationheslo1">Objednávka byla odeslána:)</p>
+        <p class="notificationheslo2">Hesla se neshodují!</p>
+        <form>
+          <input type="text" placeholder="Název pizzy" class="druh" /><br />
+          <input type="password" placeholder="Heslo1" class="heslo1" /><br />
+          <input type="password" placeholder="Heslo2" class="heslo2" /><br />
+          <input type="submit" value="Odeslat" />
+        </form>
+      </section>
+
+      <a id="nabidka"></a>
+      <section class="products">
+        <h2>Naše nabídka</h2>
+        <div class="pizza_img">
+          <div class="pizza">
+            <img src="imgs/pizza1.webp" alt="" />
+            <div class="cena">250 kč</div>
+            <div class="popis">Newyorská pizza</div>
+            <span class="material-symbols-outlined"> shopping_basket </span>
+          </div>
+          <div class="pizza">
+            <img src="imgs/pizza2.png" alt="" />
+            <div class="cena">280 kč</div>
+            <div class="popis">Sicilská pizza</div>
+            <span class="material-symbols-outlined"> shopping_basket </span>
+          </div>
+          <div class="pizza">
+            <img src="imgs/pizza3.png" alt="" />
+            <div class="cena">230 kč</div>
+            <div class="popis">Houbová pizza</div>
+            <span class="material-symbols-outlined"> shopping_basket </span>
+          </div>
+          <div class="pizza">
+            <img src="imgs/pizza4.png" alt="" />
+            <div class="cena">260 kč</div>
+            <div class="popis">Pepperoni pizza</div>
+            <span class="material-symbols-outlined"> shopping_basket </span>
+          </div>
+        </div>
+      </section>
+      <a id="pobocky"></a>
+      <div class="pobocka">
+        <h2>Kde nás najít?</h2>
+        <img src="imgs/mapa.jpg" alt="" />
+
+        <a id="kontakt"></a>
+        <div class="kontakt">
+          <h3>Kontakt</h3>
+          <p><b>Adresa:</b> Fanderlíkova 3084/19, 616 00 Brno-Žabovřesky</p>
+          <p><b>Telefon:</b> 541 260 056</p>
+          <table>
+            <tr>
+              <th>den</th>
+              <th>otevřeno</th>
+            </tr>
+            <tr>
+              <th>Po</th>
+              <td>8:00&ndash;20:00</td>
+            </tr>
+            <tr>
+              <th>Ut</th>
+              <td>8:00&ndash;20:00</td>
+            </tr>
+            <tr>
+              <th>Str</th>
+              <td>8:00&ndash;20:00</td>
+            </tr>
+            <tr>
+              <th>Ct</th>
+              <td>8:00&ndash;20:00</td>
+            </tr>
+            <tr>
+              <th>Pa</th>
+              <td>8:00&ndash;20:00</td>
+            </tr>
+            <tr>
+              <th>So</th>
+              <td>10:00&ndash;22:00</td>
+            </tr>
+            <tr>
+              <th>Ne</th>
+              <td>Zavřeno</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="scroll-btn">
+        <button class="scroll-button" onclick="scrollDown()">Nahorů</button>
+      </div>
+    </main>
+    <footer>
+      <small> Copyright © 2024 David Ježek. All Rights Reserved. </small>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
